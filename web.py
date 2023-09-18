@@ -13,7 +13,7 @@ def add_todo():
 
 
 today = date.today().strftime("%B %d, %Y")
-today_stamp = f'<p style="font-size:26px; color:yellow;">{today} </p>'
+today_stamp = f'<p style="font-size:26px; color:yellow; text-align:center">{today} </p>'
 st.write(today_stamp, unsafe_allow_html=True)
 
 st.title("My Todo WebApp")
